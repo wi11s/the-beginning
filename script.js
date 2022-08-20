@@ -1,13 +1,17 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-document.querySelector("body").appendChild(h2);
 
-const input = document.querySelector('input');
 const log = document.getElementById('values');
+//let input = document.querySelector('input').value;
 
-input.addEventListener('input', updateValue);
-function updateValue(e) {
-    log.textContent = e.target.value;
-}
-updateValue()
+/*function showMeWhatISaid() { 
+    log.textContent = input;
+    alert(input);
+}*/
 
+const textBox = document.querySelector('input');
+textBox.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    let input = document.querySelector('input').value;
+    log.textContent += `${input}, `
+    alert(input);
+  }
+});

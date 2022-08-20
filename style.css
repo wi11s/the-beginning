@@ -16,3 +16,10 @@ input {
     margin: auto;
     display: block;
 }
+
+button {
+    margin-top: 20px;
+    margin-left: 700px;
+    display: block;
+    position: relative;
+}
