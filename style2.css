@@ -1,0 +1,7 @@
+body {
+    background: rgba(255, 219, 175, 0.6);
+    background-image: url(./Images/dallEImage3.png);
+    background-position-x: center;
+    background-position-y: top;
+    background-size: cover;
+}
