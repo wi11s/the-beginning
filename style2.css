@@ -1,7 +1,44 @@
 body {
-    background: rgba(255, 219, 175, 0.6);
     background-image: url(./Images/dallEImage3.png);
     background-position-x: center;
     background-position-y: top;
     background-size: cover;
 }
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2 {
+    margin-left: 50px;
+    margin-top: 900px;
+    margin-bottom: 50px;
+    font-size: medium;
+}
+
+h3 {
+    margin-left: 50px;
+}
+
+p {
+ margin-left: 50px;
+}
+
+#top, #bottom, #left, #right {
+    background: #f5e3c3;
+    position: fixed;
+    }
+#left, #right {
+    top: 0; bottom: 0;
+    width: 15px;
+}
+#left { left: 0; }
+#right { right: 0; }
+        
+#top, #bottom {
+    left: 0; right: 0;
+    height: 15px;
+}
+#top { top: 0; }
+#bottom { bottom: 0; }
